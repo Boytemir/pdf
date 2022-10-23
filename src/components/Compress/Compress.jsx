@@ -2,6 +2,7 @@ import React from 'react';
 import './Compress.css';
 import Form from '../Form/Form';
 import { Compres } from '../Data';
+import Footer from '../Footer/Footer'
 
 const Compress = () => {
   return (
@@ -10,6 +11,7 @@ const Compress = () => {
        <p>{Compres.title}</p>
        <Form btns = {Compres.btnName}/>
        <span>{Compres.info}</span>
+       <Footer/>
     </div>
   )
 }

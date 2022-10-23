@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className='footer'>
-         <p>© iLovePDF 2022 ® - Ваш PDF Редактор</p>
+         <h6>© iLovePDF 2022 ® - Ваш PDF Редактор</h6>
     </footer>
   )
 }
